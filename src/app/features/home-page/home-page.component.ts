@@ -47,8 +47,6 @@ export class HomePageComponent implements OnInit {
 
     this.transformerService.getTransformers({})
       .pipe(
-        // Simulate server delay
-        delay(300),
         takeUntilDestroyed(this.destroyRef)
       ).subscribe({
       next: (data: Transformer[]) => {

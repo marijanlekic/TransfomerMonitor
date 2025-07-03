@@ -14,6 +14,7 @@ import {PlotlyModule} from 'angular-plotly.js';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 
+import {delayRequestInterceptor} from '@core/interceptors/delay-request.interceptor';
 import {errorInterceptor} from '@core/interceptors/error.interceptor';
 import {ThemeService} from '@core/services/theme.service';
 import {LanguageService} from '@core/services/language.service';
@@ -26,7 +27,7 @@ export const appConfig: ApplicationConfig = {
     provideBrowserGlobalErrorListeners(),
     provideZoneChangeDetection({eventCoalescing: true}),
     provideRouter(routes),
-    provideHttpClient( withInterceptors([errorInterceptor]),),
+    provideHttpClient( withInterceptors([delayRequestInterceptor, errorInterceptor]),),
     provideAnimations(),
     ThemeService,
     LanguageService,
