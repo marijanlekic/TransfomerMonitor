@@ -1,0 +1,16 @@
+:host {
+
+  mat-toolbar {
+    z-index: 10;
+    position: relative;
+    background-color: var(--bg-color) !important;
+    //border-bottom: 0.5px solid;
+  }
+
+  .toolbar-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: auto;
+  }
+
+}

@@ -1,0 +1,52 @@
+// Text
+.text-align-center {
+  text-align: center !important;
+}
+
+.text-clr-red-400 {
+  color: var(--clr-red-400) !important;
+}
+
+.text-clr-blue-400 {
+  color: var(--clr-blue-400) !important;
+}
+
+.text-clr-green-100 {
+  color: var(--clr-green-100) !important;
+}
+
+.text-clr-orange-400 {
+  color: var(--clr-orange-400) !important;
+}
+
+.text-clr-green-400 {
+  color: var(--clr-green-400) !important;
+}
+
+// Shadow
+.box-shadow {
+  box-shadow: var(--box-shadow) !important;;
+}
+
+// Border
+.rounded-edges {
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+
+// Animations
+.animateUpDown .animation-object {
+  animation: upDown 500ms ease-in-out;
+  animation-iteration-count: 2;
+}
+
+.animateDownUp .animation-object {
+  animation: downUp 500ms ease-in-out;
+  animation-iteration-count: 2;
+}
+
+.animateRotate .animation-object {
+  animation: leftRightRotate 500ms ease-in-out;
+  animation-iteration-count: 2;
+}

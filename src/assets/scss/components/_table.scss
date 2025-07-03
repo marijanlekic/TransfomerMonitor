@@ -1,0 +1,21 @@
+table {
+
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+
+  &.striped-table tr:nth-child(even) {
+    background-color: rgb(213 213 213 / 14%);
+  }
+
+  tr.no-data-row .mat-cell {
+    text-align: center;
+    padding-block: 1rem;
+  }
+
+  .highlighted-row {
+    background-color: lightgray;
+    color: black;
+  }
+
+}
+

@@ -1,0 +1,25 @@
+:root {
+
+  --clr-neutral-100: white;
+  --clr-neutral-600: gray;
+  --clr-neutral-900: black;
+
+  --clr-green-100: #8BC34A;
+  --clr-green-400: #4CAF50;
+  --clr-red-400: #F44336;
+  --clr-yellow-400: #FFC107;
+  --clr-orange-400: #FF5722;
+  --clr-blue-400: #2962FF;
+
+  --primary-color: var(--clr-neutral-900);
+  --secondary-color: var(--clr-neutral-600);
+
+  --bg-color: var(--clr-neutral-100);
+  --text-color: var(--clr-neutral-900);
+  --text-secondary-color: var(--secondary-color);
+
+  --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  --border-radius: 8px;
+
+}

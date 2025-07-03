@@ -1,0 +1,65 @@
+{
+  "LAYOUT": {
+    "TOOLBAR": {
+      "OPEN_SIDEBAR": "Open sidebar",
+      "CLOSE_SIDEBAR": "Close sidebar",
+      "CHOOSE_LANGUAGE": "Choose language",
+      "CHOOSE_THEME": "Choose theme",
+      "LIGHT_THEME": "Light theme",
+      "DARK_THEME": "Dark theme",
+      "USER_PROFILE": "User profile",
+      "SETTINGS": "Settings",
+      "LOGOUT": "Logout"
+    },
+    "SIDEBAR": {
+      "HOME_PAGE_LINK": "Home",
+      "MONITORING_PAGE_LINK": "Monitoring",
+      "SETTINGS_PAGE_LINK": "Settings",
+      "PROFILE_PAGE_LINK": "User profile",
+      "HELP_PAGE_LINK": "Help"
+    }
+  },
+  "PAGES": {
+    "HOME": {
+      "PAGE_TITLE": "Home",
+      "LATEST_METRICS": "Latest metrics",
+      "METRICS_DATE": "Latest date",
+      "MAX_VOLTAGE": "Max voltage",
+      "MIN_VOLTAGE": "Min voltage",
+      "AVERAGE_VOLTAGE": "Avg voltage",
+      "CHART_DATA": "Charts",
+      "MAX_VOLTAGE_TOOLTIP": "Maximum voltage across all transformers",
+      "MIN_VOLTAGE_TOOLTIP":"Minimum voltage across all transformers",
+      "AVG_VOLTAGE_TOOLTIP": "Average voltage across all transformers"
+    },
+    "MONITORING": {
+      "PAGE_TITLE": "Transformer monitoring",
+      "FILTERS": "Filters",
+      "ANALYTICS": "Transformer monitoring"
+    },
+    "NOT_FOUND": {
+      "PAGE_TITLE": "Page not found",
+      "PAGE_NOT_FOUND": "Page not found"
+    }
+  },
+  "COMPONENTS": {
+    "TRANSFORMER_STATUS": {
+      "EXCELLENT": "Excellent",
+      "GOOD": "Good",
+      "FAIR": "Fair",
+      "POOR": "Poor",
+      "CRITICAL": "Critical"
+    }
+  },
+  "PRIMITIVES": {
+    "SELECT": "Select",
+    "SEARCH": "Search",
+    "NO_DATA": "No data",
+    "NAME": "Name",
+    "SELECT_ALL": "Select all",
+    "DESELECT_ALL": "Deselect all",
+    "TIME": "Time",
+    "VOLTAGE": "Voltage",
+    "RESET_FILTERS": "Reset filters"
+  }
+}

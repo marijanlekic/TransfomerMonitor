@@ -1,0 +1,34 @@
+:host {
+
+  //container-type: inline-size;
+  display: block;
+  height: 100%;
+  width: 100%;
+
+  .section-header {
+    font-size: 1.5rem;
+    margin-block: 2rem;
+  }
+
+  mat-divider {
+    padding-block: 1rem;
+  }
+
+  .main-area {
+
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(500px, 1fr));
+    grid-template-rows: 372px;
+    gap: 2rem;
+
+    @media (max-width: 800px) {
+
+      display: flex;
+      flex-direction: column;
+
+    }
+
+  }
+
+}
+

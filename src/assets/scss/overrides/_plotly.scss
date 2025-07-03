@@ -1,0 +1,39 @@
+.js-plotly-plot .plotly {
+
+  .main-svg:first-child {
+    background-color: var(--bg-color) !important;
+  }
+
+  .gtitle {
+    fill: var(--text-color) !important;
+  }
+
+  .xtick * {
+    fill: var(--text-color) !important;
+  }
+
+  .ytick * {
+    fill: var(--text-color) !important;
+  }
+
+  .modebar {
+
+    width: fit-content;
+    top: 15px !important;
+    left: 15px !important;
+
+
+    .modebar-group {
+      opacity: 1;
+      background-color: transparent !important;
+      //background-color: var;
+
+      .icon path {
+        fill: var(--text-color) !important;
+      }
+
+    }
+
+  }
+
+}

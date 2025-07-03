@@ -1,0 +1,47 @@
+:host {
+
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+
+  .metrics-card-list {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+    gap: 2rem;
+  }
+
+  .metrics-card {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-color);
+    background-color: var(--bg-color)!important;
+    overflow: hidden;
+  }
+
+  .card-content {
+    padding: 1rem;
+  }
+
+  .card-header {
+    color: var(--text-secondary-color);
+    margin-bottom: 1rem;
+  }
+
+  .card-value {
+    font-size: 1.75rem;
+  }
+
+  .card-icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    font-size: 1.75rem;
+  }
+
+  .grid-item-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1.5rem;
+  }
+
+}

@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "excludedFiles": ["*.spec.ts"],
+      "parserOptions": {
+        "project": ["tsconfig.app.json"]
+      },
+      "extends": ["plugin:@angular-eslint/recommended"],
+      "rules": {}
+    },
+    {
+      "files": ["*.html"],
+      "extends": ["plugin:@angular-eslint/template/recommended"]
+    },
+    {
+      "files": ["*.spec.ts"],
+      "parserOptions": {
+        "project": ["tsconfig.spec.json"]
+      },
+      "extends": ["plugin:@angular-eslint/recommended"],
+      "rules": {}
+    }
+  ]
+}

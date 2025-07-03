@@ -1,0 +1,66 @@
+{
+  "LAYOUT": {
+    "TOOLBAR": {
+      "OPEN_SIDEBAR": "Otvori bočni meni",
+      "CLOSE_SIDEBAR": "Zatvori bočni meni",
+      "CHOOSE_LANGUAGE": "Izaberite jezik",
+      "CHOOSE_THEME": "Izaberite temu",
+      "LIGHT_THEME": "Svetla tema",
+      "DARK_THEME": "Tamna tema",
+      "USER_PROFILE": "Korisnički profil",
+      "SETTINGS": "Podešavanja",
+      "LOGOUT": "Izloguj se"
+    },
+    "SIDEBAR": {
+      "HOME_PAGE_LINK": "Početna",
+      "MONITORING_PAGE_LINK": "Monitoring",
+      "SETTINGS_PAGE_LINK": "Podešavanja",
+      "PROFILE_PAGE_LINK": "Korisnički profil",
+      "HELP_PAGE_LINK": "Pomoć"
+    }
+  },
+  "PAGES": {
+    "PAGE_NOT_FOUND": "Stranica nije pronadjena",
+    "HOME": {
+      "PAGE_TITLE": "Početna",
+      "LATEST_METRICS": "Poslednje metrike",
+      "METRICS_DATE": "Poslednji datum",
+      "MAX_VOLTAGE": "Max voltaža",
+      "MIN_VOLTAGE": "Min voltaža",
+      "AVERAGE_VOLTAGE": "Prosečna voltaža",
+      "CHART_DATA": "Dijagrami",
+      "MAX_VOLTAGE_TOOLTIP": "Maks. voltaža medju svim transformatorima",
+      "MIN_VOLTAGE_TOOLTIP": "Min. voltaža medju svim transformatorima",
+      "AVG_VOLTAGE_TOOLTIP": "Prosečna voltaža medju svim transformatorima"
+    },
+    "MONITORING": {
+      "PAGE_TITLE": "Monitoring transformatora",
+      "FILTERS": "Filteri",
+      "ANALYTICS": "Monitoring transformatora"
+    },
+    "NOT_FOUND": {
+      "PAGE_TITLE": "Stranica nije pronadjena",
+      "PAGE_NOT_FOUND": "Stranica nije pronadjena"
+    }
+  },
+  "COMPONENTS": {
+    "TRANSFORMER_STATUS": {
+      "EXCELLENT": "Odlično",
+      "GOOD": "Dobro",
+      "FAIR": "Zadovoljavajuće",
+      "POOR": "Loše",
+      "CRITICAL": "Kritično"
+    }
+  },
+  "PRIMITIVES": {
+    "SELECT": "Označi",
+    "SEARCH": "Pretraga",
+    "NO_DATA": "Nema podataka",
+    "NAME": "Ime",
+    "SELECT_ALL": "Označi sve",
+    "DESELECT_ALL": "Poništi sve",
+    "TIME": "Vreme",
+    "VOLTAGE": "Voltaža",
+    "RESET_FILTERS": "Resetuj filtere"
+  }
+}

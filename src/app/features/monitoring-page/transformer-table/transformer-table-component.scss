@@ -1,0 +1,61 @@
+:host {
+
+  display: flex;
+  flex-direction: column;
+  container-type: inline-size;
+  background-color: var(--bg-color);
+
+  .table-wrapper {
+    flex: 1;
+  }
+
+  table {
+    overflow: auto;
+  }
+
+  ::ng-deep mat-paginator {
+    .mat-mdc-paginator-page-size {
+      display: none !important;
+    }
+  }
+
+  .status-cell {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .status {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+
+    &-excellent {
+      background-color: var(--clr-green-400)
+    }
+
+    &-good {
+      background-color: var(--clr-green-100)
+    }
+
+    &-fair {
+      background-color: var(--clr-yellow-400)
+    }
+
+    &-poor {
+      background-color: var(--clr-orange-400)
+    }
+
+    &-critical {
+      background-color: var(--clr-red-400)
+    }
+
+  }
+
+  @media (max-width: 550px) {
+    table {
+      display: block;
+    }
+  }
+
+}

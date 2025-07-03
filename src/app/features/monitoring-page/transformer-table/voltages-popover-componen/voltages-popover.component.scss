@@ -1,0 +1,19 @@
+:host {
+
+  display: block;
+  width: 100%;
+  max-height: 300px;
+  overflow: scroll;
+
+  .voltage-icon {
+    font-size: 1rem;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  th {
+    position: sticky;
+    top: 0;
+  }
+
+}

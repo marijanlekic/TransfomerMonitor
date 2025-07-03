@@ -1,0 +1,26 @@
+:host {
+
+  position: relative;
+
+  .plotly {
+
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 10;
+  }
+
+  .voltage-wrapper {
+    background-color: white;
+  }
+
+}
+
+

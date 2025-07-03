@@ -1,0 +1,30 @@
+[mat-menu-item].selected {
+  background-color: rgb(185 185 185 / 40%);
+  font-weight: bold;
+}
+
+.mat-mdc-text-field-wrapper {
+  background-color: var(--bg-color);
+}
+
+.mat-field-shadow {
+  .mat-mdc-text-field-wrapper {
+    box-shadow: var(--box-shadow);
+  }
+}
+
+mat-paginator.mat-mdc-paginator {
+  background-color: unset;
+}
+
+.hide-material-checkbox {
+  > mat-pseudo-checkbox {
+    display: none;
+  }
+}
+
+.voltages-popover {
+  background-color: white;
+  width: 400px !important;
+  max-width: 500px !important;
+}
